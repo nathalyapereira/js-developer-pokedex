@@ -81,16 +81,16 @@ function loadPokemonItens(offset, limit) {
 
         <div class="detailsBody">
         
-        <label for="Altura">Altura</label>
+        <label for="Height">Height</label>
         <span class="${pokemon.type}">${pokemon.height}</span>
         
-        <label for="Peso">Peso</label>
+        <label for="Weight">Weight</label>
         <span class="${pokemon.type}">${pokemon.weight}</span>
         
         </div>
 
         <div class="detailsBodyData">
-        <label for="Habilidades">Habilidades</label>
+        <label for="Abilities">Abilities</label>
         <span><br>${pokemon.abilities}</span>
         
         </div>
